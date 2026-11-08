@@ -1,16 +1,15 @@
-## Hi there 👋
+# Krishesh Pandey — Portfolio
 
-<!--
-**Krisheshpandey/Krisheshpandey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+No-build static site. Double-click `index.html` to open it, or upload this whole folder to Netlify, Vercel or GitHub Pages.
 
-Here are some ideas to get you started:
+## Files
+- `index.html` — page structure
+- `styles.css` — all styles (light/dark theme, rooms, sakura, mockups)
+- `app.js` — loader, notebook, doors/rooms, rope toggle, sakura petals, Hire me mail
+- `assets/portrait.webp` — hero portrait (replace with another image, same name)
+- `assets/leaf.webp` — dark-mode background (replace with another image, same name)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Edit your info
+Open `app.js` and change the `CONFIG` block at the top (name, email, roles, skills). Room content is in `ROOMS`, `SHOW` and `TOOLS`.
+
+Note: project posters/mockups inside the rooms are concept designs, not client work.

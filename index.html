@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Krishesh Pandey — Portfolio</title>
+<meta name="theme-color" content="#E8E4E0">
+<script>try{var t=localStorage.getItem('folio-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="leaf" aria-hidden="true"></div>
+<canvas id="pet" aria-hidden="true"></canvas>
+<div id="loader" aria-label="Loading">
+  <div class="l-top"><b id="lname">Krishesh Pandey</b> <span>· Portfolio</span></div>
+  <div class="stack" id="stack"></div>
+  <div class="l-bot"><div><span class="mono">Opening up the work</span><div class="num" id="num"></div></div><div class="bar" id="bar"></div></div>
+</div>
+
+<header>
+  <button class="gbtn" id="menu" aria-label="Menu"><i></i><i></i><i></i></button>
+  <div class="pill"><span>Local time</span><b id="clock">--:--</b></div>
+</header>
+
+<nav id="mnav" aria-label="Menu"><a href="#about">About <small class="mono">01</small></a><a href="#doors">Skills <small class="mono">02</small></a><a href="#projects">Projects <small class="mono">03</small></a><a href="#journey">Journey <small class="mono">04</small></a><a href="#contact">Contact <small class="mono">05</small></a></nav>
+<main>
+<section class="hero" id="home">
+  <canvas id="tree" aria-hidden="true"></canvas>
+  <div class="avail"><span class="dot"></span><span id="availShort"></span></div>
+  <h1 id="h1"></h1>
+  <div class="nb" id="nb" role="text" tabindex="0">
+    <div class="shadow"></div>
+    <div class="rings" aria-hidden="true" id="rings"></div>
+    <div class="sheet under" id="under"></div>
+    <div class="sheet top" id="topSheet"></div>
+    <span class="cnt mono" id="cnt"></span>
+  </div>
+  <div class="cta">
+    <button class="btn dark" id="hire">Hire me <em>→</em></button>
+    <button class="btn glass" id="see">See my work</button>
+  </div>
+  <img class="portrait" id="portrait" src="assets/portrait.webp" width="640" height="1137" alt="Portrait of Krishesh Pandey" fetchpriority="high">
+  <div class="bottom"><span>Available for work</span><span id="scrollHint">Scroll to explore ↓</span></div>
+</section>
+
+<section class="doors" id="doors">
+  <h2 id="dh2">Magic happens<br><span style="color:var(--ink-soft)">behind the doors</span></h2>
+  <hr>
+  <div class="dt" id="dt"><h3 id="dtt"></h3><p class="mono" id="dtc"></p></div>
+  <div class="dots" id="dots"></div>
+  <div class="wall" id="wall" role="group" aria-label="Skills"></div>
+  <p class="hint mono" id="hint">Tap a door</p>
+  <div class="skirt"></div><div class="floor"></div>
+</section>
+
+<div class="more">
+<section class="sec rv" id="about"><span class="mono">01 — About</span><h2>Curious mind.<br><span class="soft">Creative energy.</span></h2>
+<p class="lead">I’m Krishesh — a Class 12 student from Ghorawal, Sonbhadra, curious about technology, design and learning.</p>
+<p class="t">My world sits where science, design and the internet meet. I create study-focused content, experiment with AI tools, edit visuals and turn rough ideas into small digital projects. Still learning, but I take the craft seriously.</p>
+<div class="facts"><div><small class="mono">Based in</small><b>Sonbhadra, UP</b></div><div><small class="mono">Education</small><b>Class XII · CBSE</b></div><div><small class="mono">Focus</small><b>Learn &amp; create</b></div><div><small class="mono">Languages</small><b>Hindi · English</b></div></div>
+<div class="chips"><span>Canva</span><span>CapCut</span><span>Photoshop</span><span>AI tools</span><span>HTML / CSS</span><span>JavaScript basics</span></div></section>
+
+<section class="sec rv" id="projects"><span class="mono">02 — Selected work</span><h2>Ideas in<br><span class="soft">progress.</span></h2>
+<p class="t">Personal concepts and learning projects — explorations, not launched products. Each one is a step forward.</p>
+<div class="pgrid">
+<article class="pc rv"><div class="pa" style="background:linear-gradient(135deg,#243b36,#111e1b)">med<em>info</em>hub.</div><div class="pi"><span class="mono">Education · Content concept</span><h3>Medinfohub.ed</h3><p>A study-content identity focused on making science and learning easier to explore through clear, visual posts.</p><div class="chips s"><span>Education</span><span>Visual notes</span><span>Instagram</span></div></div></article>
+<article class="pc rv"><div class="pa" style="background:#d8c9b7;color:#28221d">FOR<br><em>SNEHA.</em></div><div class="pi"><span class="mono">Website · Concept</span><h3>For Sneha</h3><p>An educational website concept exploring a clean interface, friendly presentation and a focused learning experience.</p><div class="chips s"><span>Web concept</span><span>UI exploration</span></div></div></article>
+<article class="pc rv"><div class="pa" style="background:radial-gradient(circle at 50% 45%,#634d87,#171323 70%)">BUBU<br><em>VERSE</em></div><div class="pi"><span class="mono">Interactive web · 3D</span><h3>Bubuverse</h3><p>An experimental 3D web experience built around atmosphere, motion, immersive scenes and playful interaction.</p><div class="chips s"><span>3D direction</span><span>Creative coding</span></div></div></article>
+<article class="pc rv"><div class="pa" style="background:linear-gradient(125deg,#e4b84e,#f4d98a 55%,#b5c17b);color:#3e331c">COCO<em>®</em></div><div class="pi"><span class="mono">Branding · Concept</span><h3>Coco</h3><p>A mango-drink brand concept exploring product identity, packaging direction and a bright, approachable visual language.</p><div class="chips s"><span>Branding</span><span>Packaging</span><span>Identity</span></div></div></article>
+</div></section>
+
+<section class="sec rv"><div class="award"><span class="big">Ⅱ</span><span class="mono">TCS Rural IT Quiz · 2026</span><h2>State-level<br><span class="soft">second place.</span></h2><p>A proud milestone in my technology-learning journey — top two at the Uttar Pradesh state level.</p></div></section>
+
+<section class="sec rv" id="journey"><span class="mono">03 — The road so far</span><h2>Not there yet.<br><span class="soft">On my way.</span></h2>
+<div class="tl">
+<div class="rv"><span class="mono">2016 — 24</span><h3>School years</h3><p>Building foundations through school, curiosity and a growing interest in how things work.</p></div>
+<div class="rv"><span class="mono">2024 — 26</span><h3>Science, tech &amp; creativity</h3><p>Exploring digital tools, visual editing, quiz competitions and personal project ideas.</p></div>
+<div class="rv now"><span class="mono">Now · 2026 — 27</span><h3>Learning with intention</h3><p>Preparing for CBSE Class 12, strengthening fundamentals and building a stronger portfolio.</p></div>
+<div class="rv"><span class="mono">Next</span><h3>More learning. Better building.</h3><p>Higher education, deeper technical skills and more ideas turned into useful projects.</p></div>
+</div></section>
+
+<section class="sec rv" id="focus"><span class="mono">04 — Fuel for the curious</span><h2>Outside the<br><span class="soft">checklist.</span></h2>
+<div class="chips"><span>Science</span><span>Marvel Universe</span><span>RCB</span><span>Photography</span><span>Video editing</span><span>AI &amp; Technology</span><span>Visual storytelling</span></div></section>
+</div>
+
+<section class="cta-panel" id="contact">
+  <p class="mono" style="opacity:.6;margin:0 0 20px"><span class="dot" style="display:inline-block;margin-right:8px"></span>Available for new work</p>
+  <h2>Need something built?<span>Let’s make it happen.</span></h2>
+  <p id="ctaText"></p>
+  <div class="cta-row"><a class="btn" id="mail" href="#">Hire me →</a><a class="btn alt" href="https://www.instagram.com/krisheshpandey/" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+  <div class="info"><div><small class="mono">Email</small><a href="mailto:krisheshpandey210@gmail.com">krisheshpandey210@gmail.com</a></div><div><small class="mono">Instagram</small><a href="https://www.instagram.com/krisheshpandey/" target="_blank" rel="noreferrer">@krisheshpandey</a></div><div><small class="mono">Location</small>Sonbhadra, Uttar Pradesh, India</div></div>
+  <small id="foot"></small>
+</section>
+</main>
+
+<article id="room" aria-live="polite" tabindex="-1">
+  <div class="rtop rin"><button class="btn glass back" id="back">← Back to the doors</button><button class="btn glass" id="rmenu">☰ Menu</button></div>
+  <h1 class="rin" id="rt"></h1>
+  <p class="rin" id="ri"></p>
+  <div class="chips rin" id="rc"></div>
+  <div class="rin" id="rb"></div>
+</article>
+
+<canvas id="rope" aria-hidden="true"></canvas>
+<button id="hit" aria-label="Toggle dark and light mode" aria-pressed="false"></button>
+
+<script src="app.js"></script>
+</body>
+</html>
